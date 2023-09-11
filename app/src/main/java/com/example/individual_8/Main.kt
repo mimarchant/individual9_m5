@@ -4,16 +4,16 @@ fun main(){
     println("Ingresar el valor en Celsius : ")
     val input = readLine()!!.toDouble()
 
-    val celciusToFarenheint = (9.0/5.0) * (input) + 32
+    val celciusToFarenheit = (9.0/5.0) * (input) + 32
 
-    println("$input° Celcius is $celciusToFarenheint degrees Farenheit.")
+    println("$input° Celcius is $celciusToFarenheit degrees Farenheit.")
 
-    val celciuToKelvin = input + 273.15
+    val celciusToKelvin = input + 273.15
 
-    println("$input° Celcius is $celciuToKelvin degrees Kelvin.")
+    println("$input° Celcius is $celciusToKelvin degrees Kelvin.")
 
-    val farenheintToKelvin = (5.0/9.0) * (celciusToFarenheint - 32) + 273.15
-    println("$celciusToFarenheint° Farenheint is $farenheintToKelvin degrees Kelvin.")
+    val farenheitToKelvin = (5.0/9.0) * (celciusToFarenheit - 32) + 273.15
+    println("$celciusToFarenheit° Farenheint is $farenheitToKelvin degrees Kelvin.")
 
 
 }
